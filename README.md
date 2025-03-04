@@ -1,36 +1,31 @@
-Job Listing App
+📌 Job Listing App
+A simple Job Listing App built with React, TypeScript, and CSS. It displays a list of jobs and ensures a responsive layout for different screen sizes.
 
-This is a simple Job Listing App built with React, TypeScript, and CSS. The app displays a list of jobs and ensures a responsive layout for different screen sizes.
+🚀 Features
+✅ Dynamic Job Listings – Jobs are displayed dynamically from data.
+✅ Responsive Layout – Grid adjusts for different screen sizes.
+✅ Hover Effects – Smooth UI interactions.
+✅ Separate Stylesheets – Organized styles with index.css and JobList.css.
 
-📌 Features
+📦 Installation & Setup
+1️⃣ Clone the repository:
 
-Display job listings dynamically
-
-Responsive grid layout for job cards
-
-Hover effects for better user experience
-
-Styled using index.css (global styles) and JobList.css (component-specific styles)
-
-🚀 Installation & Setup
-
-Clone the repository:
 
 git clone https://github.com/steno1/typescriptReact.git
+2️⃣ Navigate into the project folder:
 
-Navigate into the project folder:
 
 cd typescriptReact
+3️⃣ Install dependencies:
 
-Install dependencies:
 
 npm install
+4️⃣ Run the development server:
 
-Run the development server:
 
 npm run dev
-
 📁 Project Structure
+
 
 /typescriptReact
 │── src/
@@ -40,8 +35,8 @@ npm run dev
 │   ├── data/
 │   │   ├── jobs.ts
 │   ├── styles/
-│   │   ├── index.css  (Global styles)
-│   │   ├── JobList.css  (Job listing styles)
+│   │   ├── index.css      # Global styles
+│   │   ├── JobList.css    # Job listing styles
 │   ├── App.tsx
 │   ├── main.tsx
 │── public/
@@ -49,19 +44,12 @@ npm run dev
 │── vite.config.ts
 │── README.md
 
-🖼 Styling
-
-index.css: Defines global styles like font, background color, and page structure.
-
-JobList.css: Handles job list-specific styles, including grid layout and responsiveness.
-
-📌 Responsive Design
-
-Uses CSS Grid for job listings.
-
-Includes media queries for mobile responsiveness:
-
+🎨 Styling
+index.css → Defines global styles (font, background color, page structure).
+JobList.css → Handles job list-specific styles (grid layout, responsiveness).
+📱 Responsive Design
+📌 Uses CSS Grid for job listings.
+📌 Includes media queries for mobile responsiveness.
 
 📜 License
-
 This project is open-source and free to use.
