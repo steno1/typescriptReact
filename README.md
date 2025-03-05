@@ -1,12 +1,14 @@
 
 📱📌 Job Listing App
-📝 About
+
+
 A simple Job Listing App built with React, TypeScript, and CSS.
 This project dynamically displays job listings and ensures a responsive layout for different screen sizes.
 
 🚀 Features
 ✅ Dynamic Job Listings
 📌 Jobs are displayed dynamically from data.
+
 
 📱 Responsive Layout
 📌 Grid adjusts for different screen sizes.
