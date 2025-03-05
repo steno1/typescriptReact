@@ -1,5 +1,5 @@
 import React from "react";
-import JobList from "./styles/JobList";
+import JobList from "./components/JobList";
 
 const App: React.FC = () => {
   return (
